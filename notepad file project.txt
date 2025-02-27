@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: white;
+            color: light black;
+        }
+        h1 {
+            text-align: center;
+            color: lightseagreen; /* Teal for headings */
+        }
+        .destination-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .destination {
+            border: 1px solid whitesmoke;
+            padding: 20px;
+            width: 300px;
+            box-sizing: border-box;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .destination img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .destination table {
+            width: 100%;
+            border-collapse: collapse;
+            flex-grow: 1;
+        }
+        th, td {
+            border: 1px solid whitesmoke;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color:whitesmoke;
+        }
+        a {
+            color: lightseagreen;
+                      text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: lightgreen;
+        }
+        .map-container {
+          text-align: center;
+          margin-top: 20px;
+        }
+        body {background-color: rgb(106, 117, 167);}
+h1   {color:black;}
+</style>
+
+</head>
+<body>
+
+
+    <h1>Explore Amazing Destinations</h1>
+
+    <div class="destination-container">
+        <div class="destination">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjjM4RBbGuTENlfSrL4HN8qFZfrsvFS2mkXA&s" alt="France">
+            <h2>France</h2>
+            <p>The city of lights, known for its romance and culture.</p>
+            <table>
+                <tr><th>Best Time</th><td>Spring/Autumn</td></tr>
+                <tr><th>Price</th><td>$$$</td></tr>
+                <tr><th><a href="#">Learn More</a></th></tr>
+            </table>
+        </div>
+
+        <div class="destination">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5CLa3v1ywp7oF8Z0Nkfl0zQsP4m1K15-sMw&s" alt="japan">
+            <h2> Japan</h2>
+            <p>A vibrant city blending tradition and modernity.</p>
+            <table>
+                <tr><th>Best Time</th><td>Spring/Autumn</td></tr>
+                <tr><th>Price</th><td>$$$</td></tr>
+                <tr><th><a href="#">Learn More</a></th></tr>
+            </table>
+        </div>
+
+        <div class="destination">
+            <img src="https://t4.ftcdn.net/jpg/01/14/69/25/360_F_114692553_AlsqALliXH8n9fa7picIvlPCxRBa78K7.jpg" alt="Italy">
+            <h2> Italy</h2>
+            <p>Rich in history and famous for its ancient architecture.</p>
+            <table>
+                <tr><th>Best Time</th><td>Spring/Autumn</td></tr>
+                <tr><th>Price</th><td>$$</td></tr>
+                <tr><th><a href="#">Learn More</a></th></tr>
+            </table>
+        </div>
+        <div class="destination">
+            <img src="https://media.gettyimages.com/id/981368050/photo/ruins-of-machu-picchu-inca-trail-andes-peru.jpg?s=612x612&w=gi&k=20&c=IavgaCXriwIZfS4gi_fHwEi3EYLrWH7nfzS2xdmMmP8=" alt="America">
+            <h2>Amercia</h2>
+            <p>Ancient Incan citadel high in the Andes Mountains.</p>
+            <table>
+                <tr><th>Best Time</th><td>Dry Season</td></tr>
+                <tr><th>Price</th><td>$$</td></tr>
+                <tr><th><a href="#">Learn More</a></th></tr>
+            </table>
+        </div>
+        <div class="destination">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwuRrR-i5YhjtCgGK-9YOovdEwXccAmKfSwQ&s" alt="Australia">
+            <h2>Australia</h2>
+            <p>Iconic city with beautiful beaches and the Opera House.</p>
+            <table>
+                <tr><th>Best Time</th><td>Spring/Autumn</td></tr>
+                <tr><th>Price</th><td>$$$$</td></tr>
+                <tr><th><a href="#">Learn More</a></th></tr>
+            </table>
+        </div>
+    </div>
+    <div class = "map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.229465997203!2d-118.2436849848074!3d34.05223428063529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b85e0ad9cf%3A0xc0895c25253604f5!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1707579758931!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</body>
+</html>
